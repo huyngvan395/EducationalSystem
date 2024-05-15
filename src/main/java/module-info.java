@@ -4,6 +4,7 @@ module org.example.educationalsystem {
     requires org.kordamp.ikonli.fontawesome;
     requires java.sql;
     requires jakarta.mail;
+    requires org.kordamp.ikonli.fontawesome5;
 
     opens org.example.educationalsystem to javafx.fxml;
     opens org.example.educationalsystem.Controller.Login to javafx.fxml;

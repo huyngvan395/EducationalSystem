@@ -14,6 +14,8 @@ import java.util.ResourceBundle;
 
 public class ChangePassController implements Initializable {
     @FXML
+    private Button left_btn;
+    @FXML
     private Button submit_btn;
     @FXML
     private TextField pass_shown;
@@ -33,6 +35,7 @@ public class ChangePassController implements Initializable {
         pass_submit_shown.setVisible(false);
         show_pass.setOnAction(e-> showPass());
         submit_btn.setOnAction(e-> Submit());
+        left_btn.setOnAction(e-> leftAction());
     }
 
     public void showPass(){
@@ -68,5 +71,8 @@ public class ChangePassController implements Initializable {
             alert.setContentText("Confirmation password is incorrect");
             alert.showAndWait();
         }
+    }
+    public void leftAction(){
+        Model.getInstance().getViewFactory().getLoginOptions().set(LoginOptions.ReturnToVerification);
     }
 }

@@ -20,7 +20,7 @@ public class FormController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         Model.getInstance().getViewFactory().getLoginOptions().addListener((observable, oldValue, newValue) -> {
             switch (newValue){
-                case ForgetPass -> form_Page.setCenter(Model.getInstance().getViewFactory().getVertification());
+                case ForgetPass,ReturnToVerification -> form_Page.setCenter(Model.getInstance().getViewFactory().getVertification());
                 case NotAccount -> form_Page.setCenter(Model.getInstance().getViewFactory().getSignup());
                 case SubmitVerification -> form_Page.setCenter(Model.getInstance().getViewFactory().getLoginChangepass());
                 case SubmitPasswordChange,ReturnToLogin -> form_Page.setCenter(Model.getInstance().getViewFactory().getLogin());

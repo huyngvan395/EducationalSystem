@@ -6,5 +6,6 @@ public enum LoginOptions {
     SubmitVerification,
     SubmitPasswordChange,
     SubmitSignUp,
-    ReturnToLogin
+    ReturnToLogin,
+    ReturnToVerification
 }

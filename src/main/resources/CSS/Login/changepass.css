@@ -24,3 +24,13 @@
 .show-pass{
     -fx-text-fill: #68685f;
 }
+.left_btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 30;
+}
+.left_btn FontIcon{
+    -fx-fill: #026a70;
+}
+.left_btn:hover{
+    -fx-background-color: rgba(0,0,0,0.1);
+}

@@ -8,6 +8,7 @@
 <?import javafx.scene.text.Text?>
 
 <?import javafx.scene.control.TextField?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
 <AnchorPane prefHeight="400.0" prefWidth="360.0" styleClass="container" stylesheets="@../../CSS/Login/changepass.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.educationalsystem.Controller.Login.ChangePassController">
    <Text layoutX="77.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change pass">
       <font>
@@ -43,4 +44,9 @@
          <Font name="Arial" size="20.0" />
       </font>
    </Button>
+    <Button fx:id="left_btn" layoutX="9.0" layoutY="8.0" mnemonicParsing="false" styleClass="left_btn">
+        <graphic>
+            <FontIcon iconLiteral="fa-arrow-left" iconSize="20" />
+        </graphic>
+    </Button>
 </AnchorPane>
