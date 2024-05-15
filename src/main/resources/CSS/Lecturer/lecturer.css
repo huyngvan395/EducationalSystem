@@ -1,0 +1,13 @@
+.header{
+    -fx-background-color: rgba(0,0,0,0.1);
+}
+.button-close{
+    -fx-background-color:transparent;
+    -fx-cursor: hand;
+}
+.button-close:hover {
+    -fx-background-color: #dc1d1d;
+}
+.button-close:hover FontIcon{
+    -fx-fill: white;
+}

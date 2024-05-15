@@ -1,0 +1,39 @@
+.title-program{
+    -fx-background-color: linear-gradient(to bottom right,#2d658c,#2ca772);
+}
+.title-program Text{
+    -fx-font-size: 2em;
+    -fx-fill: white;
+}
+.title-program FontIcon{
+    -fx-font-size: 5em;
+    -fx-fill: white;
+}
+.button-close{
+    -fx-background-color:transparent;
+    -fx-cursor: hand;
+}
+.button-close:hover {
+    -fx-background-color: #dc1d1d;
+}
+.button-close:hover FontIcon{
+    -fx-fill: white;
+}
+.field{
+    -fx-background-color: rgba(0,0,0,0.05);
+    -fx-border-color: #6c6a6a;
+    -fx-border-radius: 5px;
+    -fx-prompt-text-fill: rgba(0,0,0,0.4);
+}
+.button-login{
+    -fx-background-color: linear-gradient(to bottom, #1f7fec, #0b3ec1);
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+.button-showpass{
+    -fx-border-color: #6c6a6a;
+    -fx-border-radius: 0px 5px 5px 0;
+}
+.button-showpass FontIcon{
+    -fx-fill:rgba(0,0,0,0.6);
+}

@@ -1,0 +1,6 @@
+.container{
+    -fx-background-color: rgba(0,0,0,0.1);
+}
+.no_course_lbl{
+    -fx-text-fill: rgba(0,0,0,0.6);
+}

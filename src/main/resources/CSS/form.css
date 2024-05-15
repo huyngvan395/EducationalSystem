@@ -1,0 +1,11 @@
+.title-program{
+    -fx-background-color: linear-gradient(to bottom right,#2d658c,#2ca772);
+}
+.title-program Text{
+    -fx-font-size: 2em;
+    -fx-fill: white;
+}
+.title-program FontIcon{
+    -fx-font-size: 5em;
+    -fx-fill: white;
+}

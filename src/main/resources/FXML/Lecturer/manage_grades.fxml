@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.educationalsystem.Controller.Lecturer.LecturerManageGradesController">
+    <Text layoutX="345.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Grades">
+        <font>
+          <Font name="Arial" size="30.0" />
+        </font>
+    </Text>
+    <ComboBox fx:id="class_Name" layoutX="247.0" layoutY="59.0" prefWidth="150.0" promptText="Class" />
+    <TableView fx:id="tableGrades" layoutX="19.0" layoutY="119.0" prefHeight="458.0" prefWidth="872.0">
+      <columns>
+          <TableColumn fx:id="IDStudent" prefWidth="107.19998550415039" text="ID Student" />
+          <TableColumn fx:id="NameStudent" prefWidth="167.2000274658203" text="Name" />
+          <TableColumn fx:id="ExGrades" prefWidth="130.4000244140625" text="Exercise Grades" />
+          <TableColumn fx:id="MidGrades" prefWidth="147.199951171875" text="Midterm Grades" />
+          <TableColumn fx:id="FinalGrades" prefWidth="157.5999755859375" text="Final Grades" />
+          <TableColumn fx:id="AveGrades" prefWidth="164.0" text="Average Grades" />
+      </columns>
+    </TableView>
+   <Label layoutX="103.0" layoutY="60.0" text="Choose class">
+      <font>
+         <Font name="Arial" size="20.0" />
+      </font>
+   </Label>
+</AnchorPane>

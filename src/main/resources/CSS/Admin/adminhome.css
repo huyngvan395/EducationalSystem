@@ -1,0 +1,13 @@
+.card{
+    -fx-background-color: linear-gradient(to right,#344250,#3c6382);
+}
+.card-icon{
+    -fx-fill: white;
+}
+.card-text{
+    -fx-fill: white;
+}
+.card:hover{
+    -fx-opacity: 0.7;
+    -fx-cursor: hand;
+}

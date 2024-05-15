@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane fx:id="form_Page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="610.0" stylesheets="@../CSS/form.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.educationalsystem.Controller.Form.FormController">
+    <left>
+        <AnchorPane prefHeight="400.0" prefWidth="250.0" styleClass="title-program" BorderPane.alignment="CENTER">
+            <FontIcon iconLiteral="fa-graduation-cap" iconSize="150" layoutX="35.0" layoutY="180.0" wrappingWidth="189.80010986328125" />
+            <Text layoutX="17.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Educational System">
+                <font>
+                    <Font name="Arial" size="15.0" />
+                </font>
+            </Text>
+        </AnchorPane>
+    </left>
+    <center>
+        <fx:include source="Login/form_login.fxml" />
+    </center>
+</BorderPane>

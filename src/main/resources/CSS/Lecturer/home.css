@@ -1,0 +1,16 @@
+.view_button{
+    -fx-background-color: linear-gradient(to right, #48bde8, #3877d6);
+    -fx-text-fill: white;
+}
+.creat_class_btn{
+    -fx-background-color: linear-gradient(to right, #07d524, #196e00);
+    -fx-text-fill: white;
+}
+.view_button:hover, .creat_class_btn:hover{
+    -fx-opacity: 0.6;
+    -fx-cursor: hand;
+}
+.view_button FontIcon, .creat_class_btn FontIcon{
+    -fx-fill: white;
+}
+

@@ -1,0 +1,17 @@
+.button_join{
+    -fx-background-color: #0db500;
+    -fx-text-fill: white;
+}
+.button_join FontIcon{
+    -fx-fill: white;
+}
+.line{
+    -fx-stroke: #008d95;
+}
+.button_left{
+    -fx-background-color: #ed4242;
+    -fx-text-fill: white;
+}
+.button_left FontIcon{
+    -fx-fill: white;
+}

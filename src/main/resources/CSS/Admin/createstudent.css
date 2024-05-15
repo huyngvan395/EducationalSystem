@@ -1,0 +1,26 @@
+.creat-button{
+    -fx-background-color: #008dc8;
+    -fx-text-fill: white;
+}
+.creat-button FontIcon{
+    -fx-fill: white;
+}
+.left-button{
+    -fx-background-color: transparent;
+}
+.left-button FontIcon{
+    -fx-fill: #589eef;
+}
+.left-button:hover{
+    -fx-opacity: 1;
+    -fx-background-color: rgba(0,0,0,0.1);
+    -fx-cursor: hand;
+    -fx-background-radius: 30;
+}
+.date{
+    -fx-font-size: 20;
+}
+Button:hover{
+    -fx-opacity: 0.7;
+    -fx-cursor: hand;
+}

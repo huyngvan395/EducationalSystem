@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane fx:id="student_Page" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="751.0" prefWidth="1162.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.educationalsystem.Controller.Student.StudentController">
+   <top>
+       <AnchorPane prefHeight="51.0" prefWidth="1162.0" stylesheets="@../../CSS/Student/student.css" BorderPane.alignment="CENTER">
+           <FontIcon iconLiteral="fa-graduation-cap" iconSize="20" layoutX="14.0" layoutY="32.0" />
+           <Label layoutX="52.0" layoutY="13.0" text="Student System">
+              <font>
+                  <Font name="Arial" size="20.0" />
+              </font>
+           </Label>
+           <Button fx:id="close_button" layoutX="1116.0" layoutY="12.0" mnemonicParsing="false" styleClass="button-close">
+               <graphic>
+                   <FontIcon iconLiteral="fa-close" iconSize="20" styleClass="button-close" />
+               </graphic>
+           </Button>
+       </AnchorPane>
+   </top>
+    <left>
+        <fx:include source="student_menu.fxml" />
+    </left>
+    <center>
+        <fx:include source="home.fxml"/>
+    </center>
+</BorderPane>

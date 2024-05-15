@@ -1,0 +1,58 @@
+.header{
+    -fx-background-color: rgba(0,0,0,0.1);
+}
+.menu{
+    -fx-background-color: linear-gradient(to bottom, #6ecf70, #227e9e);
+}
+.icon-main{
+    -fx-fill: white;
+}
+/*.text-field{*/
+/*    -fx-text-fill:white;*/
+/*    -fx-fill: white;*/
+/*}*/
+/*.line{*/
+/*    -fx-stroke: white;*/
+/*}*/
+/*.signout-button{*/
+/*    -fx-background-color: transparent;*/
+/*    -fx-cursor: hand;*/
+/*    -fx-text-fill: white;*/
+/*}*/
+/*.signout-button FontIcon{*/
+/*    -fx-fill: white;*/
+/*}*/
+/*.signout-button:hover{*/
+/*    -fx-opacity: 0.8;*/
+/*}*/
+/*.button-menu{*/
+/*    -fx-background-color: transparent;*/
+/*    -fx-alignment: left;*/
+/*    -fx-text-fill: white;*/
+/*    -fx-cursor: hand;*/
+/*}*/
+/*.button-menu FontIcon{*/
+/*    -fx-fill: white;*/
+/*}*/
+/*.button-menu:hover{*/
+/*    -fx-opacity: 0.8;*/
+/*}*/
+.button-close{
+    -fx-background-color:transparent;
+    -fx-cursor: hand;
+}
+.button-close:hover {
+    -fx-background-color: #dc1d1d;
+}
+.button-close:hover FontIcon{
+    -fx-fill: white;
+}
+/*.card{*/
+/*    -fx-background-color: linear-gradient(to right,#344250,#3c6382);*/
+/*}*/
+/*.card-icon{*/
+/*    -fx-fill: white;*/
+/*}*/
+/*.card-text{*/
+/*    -fx-fill: white;*/
+/*}*/

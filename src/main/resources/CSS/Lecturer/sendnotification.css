@@ -1,0 +1,17 @@
+.send_btn{
+    -fx-background-color: linear-gradient(to right, #4bb8dd, #3261cf);
+    -fx-text-fill: white;
+}
+.send_btn FontIcon{
+    -fx-fill: white;
+}
+.combobox_class{
+    -fx-background-color: linear-gradient(to right, #cde5f4, #a6e3de);
+}
+.combobox_class:hover{
+    -fx-cursor: hand;
+}
+Button:hover{
+    -fx-cursor: hand;
+    -fx-opacity: 0.8;
+}

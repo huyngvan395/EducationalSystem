@@ -1,0 +1,11 @@
+.button-view{
+    -fx-background-color: #00efca;
+    -fx-text-fill: white;
+}
+.button-view FontIcon{
+    -fx-fill: white;
+}
+Button:hover{
+    -fx-opacity: 0.8;
+    -fx-cursor: hand;
+}

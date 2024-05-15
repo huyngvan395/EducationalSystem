@@ -1,0 +1,27 @@
+.container{
+    -fx-background-color: linear-gradient(to top right, #c3dddd, #d1cccc);
+}
+.text-head{
+    -fx-text-fill: rgba(0,0,0,0.6);
+}
+.text-ac{
+    -fx-text-fill: white;
+}
+.btn_confirm{
+    -fx-background-color: linear-gradient(to bottom, #78c3a9, #6084ae);
+    -fx-text-fill: white;
+}
+.left_btn{
+    -fx-background-color: transparent;
+    -fx-background-radius: 30;
+}
+.left_btn FontIcon{
+    -fx-fill: #026a70;
+}
+.left_btn:hover{
+    -fx-background-color: rgba(0,0,0,0.1);
+}
+Button:hover{
+    -fx-opacity: 0.8;
+    -fx-cursor: hand;
+}

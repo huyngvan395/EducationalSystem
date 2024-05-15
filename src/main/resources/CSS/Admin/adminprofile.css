@@ -1,0 +1,9 @@
+.container{
+    -fx-background-color: linear-gradient(to top right, #b3dcd4, #b9cbd6);
+}
+.btn_submit{
+    -fx-background-color: linear-gradient(to bottom left, #4aa835, #27a10c);
+}
+.title{
+    -fx-fill: white;
+}

@@ -1,0 +1,14 @@
+.update-button{
+    -fx-background-color: #008dc8;
+    -fx-text-fill: white;
+}
+.update-button FontIcon{
+    -fx-fill: white;
+}
+.date{
+    -fx-font-size: 20;
+}
+Button:hover{
+    -fx-opacity: 0.7;
+    -fx-cursor: hand;
+}

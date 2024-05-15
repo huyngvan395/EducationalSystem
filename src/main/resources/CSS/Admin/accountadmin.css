@@ -1,0 +1,21 @@
+.container{
+    -fx-background-color: linear-gradient(to top right, #c3dddd, #d1cccc);
+}
+.title{
+    -fx-text-fill: white;
+}
+.text-label{
+    -fx-text-fill: rgba(32, 30, 30, 0.7);
+}
+.submit-button{
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(to right, #3eda52, #2e972a);
+    -fx-border-color: transparent;
+}
+.show-pass{
+    -fx-text-fill: #68685f;
+}
+Button:hover{
+    -fx-opacity: 0.7;
+    -fx-cursor: hand;
+}

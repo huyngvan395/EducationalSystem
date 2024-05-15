@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="905.0" styleClass="container" stylesheets="@../../CSS/Student/course.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.educationalsystem.Controller.Student.StudentCourseController">
+   <Text layoutX="390.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COURSE">
+      <font>
+         <Font name="Arial" size="30.0" />
+      </font>
+   </Text>
+   <ListView fx:id="course_listview" layoutX="14.0" layoutY="71.0" prefHeight="525.0" prefWidth="880.0" />
+   <Label fx:id="text" layoutX="248.0" layoutY="282.0" styleClass="no_course_lbl" text="There are no courses available">
+      <font>
+         <Font name="Arial" size="30.0" />
+      </font>
+   </Label>
+</AnchorPane>

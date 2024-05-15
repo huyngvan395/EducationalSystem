@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="60.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.educationalsystem.Controller.Student.StudentViewGradesCellController">
+    <Label fx:id="course_Name_lbl" layoutX="15.0" layoutY="18.0" text="Course Name">
+        <font>
+          <Font name="Arial" size="20.0" />
+        </font>
+    </Label>
+    <Label fx:id="ex_Grades" layoutX="280.0" layoutY="21.0">
+      <font>
+         <Font name="Arial" size="18.0" />
+      </font></Label>
+    <Label fx:id="midterm_Grades" layoutX="450.0" layoutY="21.0">
+      <font>
+         <Font name="Arial" size="20.0" />
+      </font></Label>
+    <Label fx:id="final_Grades" layoutX="600.0" layoutY="21.0">
+      <font>
+         <Font name="Arial" size="20.0" />
+      </font></Label>
+    <Label fx:id="average_Grades" layoutX="770.0" layoutY="21.0">
+      <font>
+         <Font name="Arial" size="20.0" />
+      </font></Label>
+</AnchorPane>

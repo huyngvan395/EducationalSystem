@@ -1,0 +1,12 @@
+.left_button{
+    -fx-background-color: transparent;
+}
+.left_button FontIcon{
+    -fx-fill: #589eef;
+}
+.left_button:hover{
+    -fx-opacity: 1;
+    -fx-background-color: rgba(0,0,0,0.1);
+    -fx-cursor: hand;
+    -fx-background-radius: 30;
+}
