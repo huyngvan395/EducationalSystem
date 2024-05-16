@@ -869,4 +869,22 @@ public class DataDriver {
             e.printStackTrace();
         }
     }
+
+    public boolean checkEmail(String userRole, String email){
+        PreparedStatement preparedStatement;
+        ResultSet rs;
+        try{
+            String query= "SELECT * FROM "+userRole+" WHERE Email=?";
+            preparedStatement=getConnection().prepareStatement(query);
+            preparedStatement.setString(1, email);
+            rs=preparedStatement.executeQuery();
+            if(rs.next()){
+                return true;
+            }
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+        }
+        return false;
+    }
 }

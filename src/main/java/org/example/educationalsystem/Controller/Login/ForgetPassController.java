@@ -10,6 +10,7 @@ import javafx.scene.input.KeyEvent;
 import org.example.educationalsystem.Model.Model;
 import org.example.educationalsystem.Model.SendMail;
 import org.example.educationalsystem.View.LoginOptions;
+import org.example.educationalsystem.View.RoleUser;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -54,13 +55,32 @@ public class ForgetPassController implements Initializable {
     public void sendVerificationCode(){
         String userEmail = email.getText();
         if(!userEmail.isEmpty()){
-            verificationCode= SendMail.randomCode();
-            SendMail.sendCode(userEmail,verificationCode);
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Verification Code");
-            alert.setHeaderText(null);
-            alert.setContentText("Verification Code Sent");
-            alert.showAndWait();
+            String userRole;
+            if(Model.getInstance().getRole_Login()== RoleUser.Admin){
+                userRole = "admin";
+            }else if(Model.getInstance().getRole_Login()==RoleUser.Lecturer){
+                userRole = "lecturer";
+            }
+            else{
+                userRole = "student";
+            }
+            if(Model.getInstance().getDataDriver().checkEmail(userRole, userEmail)){
+                verificationCode= SendMail.randomCode();
+                SendMail.sendCode(userEmail,verificationCode);
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setTitle("Verification Code");
+                alert.setHeaderText(null);
+                alert.setContentText("Verification Code Sent");
+                alert.showAndWait();
+            }
+            else{
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setTitle("Verification Code");
+                alert.setHeaderText(null);
+                alert.setContentText("Email does not registered");
+                alert.showAndWait();
+            }
+
         }
         else{
             Alert alert= new Alert(Alert.AlertType.ERROR);

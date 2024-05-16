@@ -10,17 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a9040a1-d3ca-4bdc-a7db-c15f271f09ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EducationalSystem_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/EducationalSystem.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EducationalSystem/EducationalSystem.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/educationalsystem/Controller/Form/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/educationalsystem/Controller/Form/FormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/educationalsystem/Controller/Login/ChangePassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/educationalsystem/Controller/Login/ChangePassController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/educationalsystem/View/LoginOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/educationalsystem/View/LoginOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/CSS/Login/changepass.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSS/Login/changepass.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/Login/changepass.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/Login/changepass.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/educationalsystem/Controller/Login/ForgetPassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/educationalsystem/Controller/Login/ForgetPassController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/educationalsystem/Model/DataDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/educationalsystem/Model/DataDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,45 +51,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.DataDriver.executor": "Run",
-    "Application.ForgetPassword.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "Application.Lancher.executor": "Run",
-    "Application.Login.executor": "Run",
-    "Application.Mark.executor": "Run",
-    "Application.PassSecurity.executor": "Run",
-    "Application.Security.executor": "Run",
-    "Application.SendMail.executor": "Run",
-    "JAR Application.EducationalSystem-1.0-SNAPSHOT-jar-with-dependencies.jar.executor": "Run",
-    "JAR Application.EducationalSystem-1.0-SNAPSHOT.jar.executor": "Run",
-    "JAR Application.EducationalSystem.jar (1).executor": "Run",
-    "JAR Application.EducationalSystem.jar.executor": "Run",
-    "JUnit.FXML.Admin in EducationalSystem.executor": "Coverage",
-    "Maven.EducationalSystem [org.apache.maven.plugins:maven-assembly-plugin:2.4:single].executor": "Run",
-    "Maven.EducationalSystem [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/huyng/IdeaProjects/TextEditor",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.11954023",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForgetPassword.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lancher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Login.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mark.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassSecurity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Security.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SendMail.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.EducationalSystem-1.0-SNAPSHOT-jar-with-dependencies.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.EducationalSystem-1.0-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.EducationalSystem.jar (1).executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.EducationalSystem.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FXML.Admin in EducationalSystem.executor&quot;: &quot;Coverage&quot;,
+    &quot;Maven.EducationalSystem [org.apache.maven.plugins:maven-assembly-plugin:2.4:single].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.EducationalSystem [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DACS1/EducationalSystem&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.11954023&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DACS1\EducationalSystem\src\main\resources\Image" />
@@ -242,7 +234,9 @@
       <workItem from="1715696938027" duration="9070000" />
       <workItem from="1715734108230" duration="5069000" />
       <workItem from="1715753137499" duration="6523000" />
-      <workItem from="1715777116356" duration="16114000" />
+      <workItem from="1715777116356" duration="16495000" />
+      <workItem from="1715793929972" duration="654000" />
+      <workItem from="1715824775848" duration="1584000" />
     </task>
     <servers />
   </component>
