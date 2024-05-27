@@ -100,12 +100,8 @@ public class EditController implements Initializable {
         });
         getTableLectureData();
         getTableStudentData();
-        if(table_Lecturer.isVisible()){
-            editTableLecturer();
-        }
-        else{
-            editTableStudent();
-        }
+        editTableLecturer();
+        editTableStudent();
     }
 
 

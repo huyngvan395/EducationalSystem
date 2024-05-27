@@ -15,7 +15,7 @@
             <Font name="Arial" size="35.0" />
         </font>
     </Text>
-    <TextField fx:id="ID_Student" layoutX="230.0" layoutY="100.0" prefHeight="39.0" prefWidth="442.0" promptText="ID_Lecturer">
+    <TextField fx:id="ID_Student" layoutX="230.0" layoutY="100.0" prefHeight="39.0" prefWidth="442.0" promptText="ID_Student">
         <font>
             <Font name="Arial" size="20.0" />
         </font>
